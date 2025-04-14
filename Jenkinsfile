@@ -40,7 +40,7 @@ pipeline {
                         -Dsonar.sources=src \
                         -Dsonar.tests=tests \
                         -Dsonar.inclusions=src/**/*.js \
-                        -Dsonar.test.inclusions=tests/**/*.test.js \
+                        -Dsonar.test.inclusions=test/**/*.test.js \
                         -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
                     """
                 }

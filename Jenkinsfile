@@ -38,7 +38,7 @@ pipeline {
                         -Dsonar.projectKey=calculnode \
                         -Dsonar.projectName="Calcul Node" \
                         -Dsonar.sources=src \
-                        -Dsonar.tests=tests \
+                        -Dsonar.tests=test \
                         -Dsonar.inclusions=src/**/*.js \
                         -Dsonar.test.inclusions=test/**/*.test.js \
                         -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
